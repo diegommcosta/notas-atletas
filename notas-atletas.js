@@ -18,6 +18,19 @@ let atletas = [
     }
 ];
 
+// função que calcula a média válida
+function calculaMedia(notas) {
+    let notasOrdenadas = notas.slice().sort((a, b) => a - b);
+    let notasValidas = notasOrdenadas.slice(1, notas.length - 1);
+
+    let soma = 0;
+    notasValidas.forEach(nota => {
+        soma += nota;
+    });
+
+    return soma / notasValidas.length;
+}
+
 // percorre atletas
 for (let i = 0; i < atletas.length; i++) {
     let atleta = atletas[i];
