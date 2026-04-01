@@ -31,7 +31,7 @@ Para garantir maior justiça na avaliação, o programa:
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/notas-atletas
+git clone https://github.com/diegommcosta/notas-atletas
 ```
 
 2. Acesse a pasta do projeto:
